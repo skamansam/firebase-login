@@ -1,0 +1,34 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<!--
+`firebase-login`
+Handle login and auth with firebase
+
+@demo demo/index.html 
+-->
+
+<dom-module id="firebase-login">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'firebase-login',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'firebase-login',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
